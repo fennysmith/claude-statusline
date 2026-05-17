@@ -87,7 +87,7 @@ if [ -n "$total_in" ] && [ -n "$total_out" ]; then
     fi
 fi
 
-printf "\033[32m%s@%s\033[0m:\033[34m%s\033[0m" "$user" "$host" "$short_dir"
+printf "\033[34m%s\033[0m" "$short_dir"
 
 [ -n "$model" ] && printf " \033[33m[%s]\033[0m" "$model"
 [ -n "$token_info" ] && printf " \033[36m(%s)\033[0m" "$token_info"

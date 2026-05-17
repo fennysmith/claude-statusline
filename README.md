@@ -3,12 +3,12 @@
 A single-line, colored statusline for [Claude Code](https://claude.com/claude-code).
 
 ```
-user@host:repo [Claude Opus 4.7] (ctx:42% tokens:78.3k) [5h:31% ↻ 18:00] [week:12% ↻ 05/20 09:00] {month:4.2Mtok $63.41}
+repo [Claude Opus 4.7] (ctx:42% tokens:78.3k) [5h:31% ↻ 18:00] [week:12% ↻ 05/20 09:00] {month:4.2Mtok $63.41}
 ```
 
 Segments shown (each is omitted if data is unavailable):
 
-- `user@host:dir` — current workspace
+- `dir` — current workspace basename
 - `[model]` — active model display name
 - `(ctx:% tokens:N)` — context window usage from the current session
 - `[5h:% ↻ HH:MM]` — 5-hour rate limit + reset time
